@@ -1,0 +1,550 @@
+* {
+  margin: 0;
+  position: relative;
+}
+
+/* header design */
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: lightgray;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+}
+
+.logo {
+  align-content: center;
+  padding: 10px 0 10px 0;
+}
+
+.pages-list {
+  align-content: center;
+}
+.pages-list ul{
+  padding-left: 50px;
+}
+.pages-list ul li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.pages-list ul li a {
+  text-decoration: none;
+  color: #000;
+  padding: 15px;
+}
+
+.pages-list ul li:hover {
+  background-color: lightgray;
+  border-radius: 30px;
+}
+
+.pages-list ul li a:hover {
+  background-color: rgb(160, 160, 160);
+  border-radius: 30px;
+}
+
+.book-table {
+  align-content: center;
+}
+
+.book-table button {
+  padding: 10px;
+  /* border: 1px solid #000; */
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.book-table button a {
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.book-table button:hover {
+  background-color: lightgray ;
+}
+
+/* first div */
+.content .home1 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../assits/backGround\ home.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .home1 .card1-home {
+  width: 50%;
+}
+
+.content .home1 .card1-home h1 {
+  font-size: 55px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.content .home1 .card1-home p {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.content .home1 .card1-home .buttons {
+  text-align: center;
+  
+}
+.content .home1 .card1-home .buttons a{
+  text-decoration: none;
+  color:#000;
+  padding:15px 20px 15px 20px
+}
+
+.content .home1 .card1-home .buttons button a:hover{
+  background-color:lightgray; 
+  border-radius: 20px;
+}
+
+.content .home1 .card1-home .buttons button {
+  padding: 15px;
+  border-radius: 20px;
+  margin: 15px;
+}
+.content .home1 .card1-home .buttons #button1 {
+  background-color: red;
+  color: white;
+}
+
+
+
+/* second div */
+.home2 {
+  padding: 50px;
+}
+.home2 h1 {
+  text-align: center;
+  font-size: 55px;
+}
+.home-menu {
+  display: flex;
+  box-sizing: border-box;
+  margin-top: 50px;
+  justify-content: space-evenly;
+}
+.home-menu .items {
+  text-align: center;
+  width: 20%;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+}
+.home-menu .items img {
+  width: 15%;
+  height: 15%;
+  padding: 30px;
+  background-color: lightgray;
+  border-radius: 40%;
+}
+.home-menu .items img:hover{
+  transition:transform 2s;
+  transform: rotate(360deg);
+  
+}
+
+
+.home-menu .items h2 {
+  margin: 15px;
+}
+.home-menu .items p {
+  margin-bottom: 15px;
+}
+.home-menu .items a {
+  text-decoration: none;
+  display: block;
+  font-size: 18px;
+  color: rgb(255, 0, 0);
+  padding: 5px;
+  margin: 20px;
+}
+.home-menu .items a:hover {
+  background-color: lightgrey;
+  border-radius: 20px;
+}
+
+/* therd div */
+.home3 {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(239, 239, 239);
+  padding: 50px 50px 0px 50px;
+  height: 65vh;
+  position: relative;
+}
+.home3 .left {
+  width: 40%;
+  height: 50vh;
+}
+.home3 .left img {
+  width: 100%;
+  height: 100%;
+}
+.home3 .right {
+  width: 40%;
+  align-content: center;
+}
+.home3 .right h2,
+.home3 .right p {
+  margin-bottom: 20px;
+}
+.home3 .right button {
+  padding: 15px;
+  border-radius: 20px;
+  margin: 10px;
+  margin-left: 35%;
+}
+.home3 .right button a {
+  text-decoration: none;
+  color: #000;
+  padding: 15px;
+}
+.home3 .right button:hover {
+  background-color: gray;
+}
+.home3 .floted {
+  width: 20%;
+  background-color: #000;
+  color: white;
+  position: absolute;
+  bottom: 20px;
+  left: 20%;
+  padding: 15px;
+  border-radius: 10px;
+}
+.home3 .floted h3 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+.home3 .floted p {
+  margin-bottom: 15px;
+  text-align: left;
+  align-content: center;
+}
+.home3 .floted img {
+  width: 10%;
+}
+
+/* fourth div */
+.home4 {
+  margin: 100px 0 100px 0;
+  text-align: center;
+}
+
+.home4 h1 {
+  text-align: left;
+  width: 35%;
+  margin: 30px 0 30px 5%;
+}
+
+.home4-items {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.home4-items .cart {
+  width: 18%;
+}
+
+.home4-items .cart img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.home4-items .cart img:hover {
+  transition: transform 0.5s;
+  transform: scale(1.1);
+}
+
+.home4-items .cart img {
+  width: 100%;
+}
+
+.home4-items .cart h3,
+.home4-items .cart p {
+  text-align: left;
+  margin: 1px 0 15px 0;
+}
+
+/* fivth div */
+.home5 {
+  padding-top: 5%;
+  background-color: rgb(239, 239, 239);
+  padding-bottom: 50px;
+    
+}
+
+.home5 h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.home5-items {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.home5-items .cart {
+  width: 25%;
+  background-color: rgb(189, 189, 189);
+  padding: 15px;
+  border-radius: 20px;
+  
+}
+
+.home5-items .cart h3,
+.home5-items .cart p {
+  padding: 15px;
+}
+
+.home5-items .cart .img-name {
+  margin: 15px 0 15px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.home5-items .cart .img-name .one img {
+  width: 25%;
+}
+
+.home5-items .cart .img-name .two {
+  width: 60%;
+  align-content: center;
+}
+
+.home5-items .cart .img-name .two h5 {
+  font-size: 20px;
+}
+
+/* footer */
+.footer{
+    background-color:rgb(44, 44, 44);
+    padding: 20px 0 40px 0;
+}
+.footer .all{
+    display: flex;
+    justify-content: space-evenly;
+}
+.all .left , .all .center , .all .right {
+    width: 30%;
+    color:white;
+    margin: 15px 0 15px 0;
+    justify-content: center;
+
+}
+.left .paragraph , .left p{
+    margin:20px 0 20px 10px;
+    line-height: 30px;
+
+}
+.center{
+    display: flex;
+    justify-content: space-around;
+}
+.center .ul-1 h3 , .center .ul-2 h3 , .right h3{
+    margin: 20px 0 20px 0;
+    font-size: 25px;
+
+}
+.center .ul-1 li , .center .ul-2 li{
+    margin: 20px 0 20px 0;
+    list-style: none;
+    padding: 5px;
+
+}
+.center .ul-1 li a {
+    padding: 5px;
+    color: white;
+}
+.right img{
+    width: 90%;
+}
+.footer .buttom{
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 0px) and (max-width: 800px) {
+  .header .logo {
+    width: 20%;
+  }
+  .header .logo img{
+    width: 20%;
+  }
+  .header .logo .logo-name{
+    width: 75%;
+    text-align: center;
+    margin-top: -500%;
+  }
+  .pages-list ul li a{
+    padding: 3px;
+  }
+
+  .header .book-table{
+    width: 15%;
+  }
+  .header .book-table button a {
+    font-size:70%;
+    padding: 5;
+  }
+
+  
+  .home2 .home-menu {
+    display: block;
+  }
+
+  .home2 .home-menu .items {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .home3 .floted p {
+    font-size: 12px;
+  }
+
+  .home4 h1 {
+    width: 100%;
+  }
+
+  .home4-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .home4-items .cart {
+    width: 45%;
+    margin-bottom: 10px;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+    padding: 2px;
+  }
+
+  .home3 .floted p {
+    font-size: 10px;
+  }
+
+  .home5-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .home5-items .cart {
+    width: 70%;
+    margin-bottom: 10px;
+    border: 2px solid lightgrey;
+  }
+
+  .footer .all{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .all .left , .all .center , .all .right {
+    width: 60%;
+    color:white;
+    margin: 15px 0 15px 0;
+    justify-content:space-between;
+  }
+
+
+
+}
+
+@media screen and (min-width: 801px) and (max-width: 1100px) {
+  .header .book-table{
+    width: 15%;
+  }
+  .pages-list ul li a{
+    padding: 3px;
+  }
+  .pages-list ul {
+    padding-left: 0;
+  }
+
+  .header .book-table button a{
+    font-size:10px;
+    padding: 0;
+  }
+
+  .home2 .home-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+
+  .home2 .home-menu .items {
+    width: 40%;
+    margin-bottom: 20px;
+  }
+
+  .home3 .floted p {
+    font-size: 12px;
+  }
+
+  .home5-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .home5-items .cart {
+    width: 45%;
+    margin-bottom: 10px;
+    border: 2px solid lightgrey;
+  }
+}

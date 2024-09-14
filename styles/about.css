@@ -1,0 +1,301 @@
+/* Style About 1 */
+.about1 {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(239, 239, 239);
+  padding: 50px 50px 0px 50px;
+  height: 65vh;
+  position: relative;
+}
+.about1 .left {
+  width: 40%;
+  height: 50vh;
+}
+.about1 .left img {
+  width: 100%;
+  height: 100%;
+}
+.about1 .right {
+  width: 40%;
+  align-content: center;
+}
+.about1 .right h2,
+.about1 .right p {
+  margin-bottom: 20px;
+}
+.about1 .right button {
+  padding: 15px;
+  border-radius: 20px;
+  margin: 10px;
+  margin-left: 35%;
+}
+.about1 .right button a {
+  text-decoration: none;
+  color: #000;
+  padding: 15px;
+}
+.about1 .right button:hover {
+  background-color: gray;
+}
+.about1 .floted {
+  width: 20%;
+  background-color: #000;
+  color: white;
+  position: absolute;
+  bottom: 20px;
+  left: 20%;
+  padding: 15px;
+  border-radius: 10px;
+}
+.about1 .floted h3 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+.about1 .floted p {
+  margin-bottom: 15px;
+  text-align: left;
+  align-content: center;
+}
+.about1 .floted img {
+  width: 10%;
+}
+
+/* Style About 2 */
+.about2 {
+  position: relative;
+  background-color: #ffffff;
+}
+.about2 .about2-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background-image: url("../assits/about imges/BG.png");
+  margin-bottom: 20px;
+}
+.about2 .about2-one h1 {
+  width: 30%;
+  color:white;
+  text-align: center;
+}
+.about2 .about2-two {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.about2 .about2-two .features {
+  display: flex;
+  flex-wrap: wrap;
+  width: 25%;
+  padding: 5px;
+  border: 2px solid lightgray;
+  border-radius: 20px;
+}
+.about2 .about2-two .features img {
+  width: 15%;
+  height: 60%;
+}
+.about2 .about2-two .features .two {
+  width: 75%;
+  margin-left: 15px;
+}
+.about2 .about2-two .features .two h2 {
+  margin-bottom: 15px;
+}
+
+/* Style About 3 */
+.about3 {
+  display: flex;
+  background-color: lightgray;
+  padding: 20px;
+}
+.about3 .left {
+  width: 70%;
+  margin: 0 5% 0 10%;
+}
+.about3 .left h1{
+  width: 80%;
+  margin-top: 10%;
+}
+.about3 .left p{
+  width: 80%;
+  margin-bottom: 10%;
+}
+
+.about3 .left .divs-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.about3 .left .divs-group .group{
+    width: 40%;
+    border-radius: 20px;
+    background-color: rgb(233, 233, 233);
+    padding: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.divs-group .group h1 , .divs-group .group h5{
+    width: 100%;
+    margin-top: 0;
+}
+.about3 .right img{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+/* Style About 4 */
+
+.about4 {
+    padding-top: 5%;
+    background-color: rgb(239, 239, 239);
+    padding-bottom: 50px;
+      
+  }
+  
+  .about4 h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .about4-items {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .about4-items .cart {
+    width: 25%;
+    background-color: rgb(189, 189, 189);
+    padding: 15px;
+    border-radius: 20px;
+    
+  }
+  
+  .about4-items .cart h3,
+  .about4-items .cart p {
+    padding: 15px;
+  }
+  
+  .about4-items .cart .img-name {
+    margin: 15px 0 15px 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .about4-items .cart .img-name .one img {
+    width: 25%;
+  }
+  
+  .about4-items .cart .img-name .two {
+    width: 60%;
+    align-content: center;
+  }
+  
+  .about4-items .cart .img-name .two h5 {
+    font-size: 20px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 0px) and (max-width: 800px) {
+  .about1 .floted p {
+    font-size: 10px;
+  }
+  .about2 .about2-two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+  }
+  .about2 .about2-two .features {
+    width: 60%;
+    margin-bottom: 15px;
+    border: 2px solid lightgray;
+    border-radius: 20px;
+  }
+
+
+  .about3 .left {
+    width: 100%;
+    margin: 0 5% 0 10%;
+  }
+  .about3 .left .divs-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .about3 .left .divs-group .group{
+    width: 80%;
+  }
+
+
+  .about4-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .about4-items .cart {
+    width: 70%;
+    margin-bottom: 10px;
+    border: 2px solid lightgrey;
+  }
+}
+
+
+@media screen and (min-width: 801px) and (max-width: 1100px) {
+  .about1 .floted p {
+    font-size: 12px;
+  }
+  .about2 .about2-two {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+  }
+  .about2 .about2-two .features {
+    width: 45%;
+    margin-bottom: 20px;
+    border: 2px solid lightgray;
+    border-radius: 20px;
+  }
+
+
+  .about4-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .about4-items .cart {
+    width: 45%;
+    margin-bottom: 10px;
+    border: 2px solid lightgrey;
+  }
+}

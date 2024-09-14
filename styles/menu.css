@@ -1,0 +1,109 @@
+.menu1{
+    padding-top: 10vh;
+}
+.menu1 h1 , .menu1 p{
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+.menu1 h1{
+    font-size: 80px;
+    width: 80%;
+}
+
+
+.menu2{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    justify-content: space-evenly;
+    margin:50px  auto 80px auto ;
+}
+.menu2 button{
+    width: 18%;
+    padding : 10px 0 10px 0;
+    border:1px solid grey;
+    border-radius: 20px;
+}
+.menu2 button:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+
+.menu3{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.menu3 .menu-card{
+    border:1px solid lightgray;
+    width: 20%;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.menu3 .menu-card img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom:20px
+
+}
+.menu3 .menu-card img:hover{
+    transition:transform 1s ;
+    transform:scale(1.2) ;
+    
+}
+
+.menu3 .menu-card h2 , .menu3 .menu-card p{
+    margin-bottom:10px
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 0px) and (max-width: 800px) {
+    .menu2{
+        display: flex;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+        /* width: 50%; */
+        align-content: center;
+        margin: auto;
+    }
+    .menu2 button{
+        margin-bottom: 15px;
+        width: 45%;
+    }
+
+    .menu3{
+        flex-wrap: wrap;
+    }
+    .menu3 .menu-card{
+        width: 40%;
+        
+    }
+}
